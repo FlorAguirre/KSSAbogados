@@ -1,0 +1,55 @@
+.header__nav{
+    display:flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-right:50px;
+    margin-top:0px;
+}
+
+.header__logo{
+    height: 100px;
+}
+
+/* .header__imagen{
+    width:100%;
+    height: 800px;
+} */
+
+.estilo__letra{
+     color:white;
+}
+
+.hero {
+    background-image: url(../Imagenes/Imagen1.png);
+    height: 800px;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+
+.header__texto{
+    color:white;
+    text-align: center;
+    margin-top:300px;
+    margin-right:600px;
+}
+
+.contenido-hero {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    /* transparencia en el hero */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.estilo__boton{
+    margin-top:20px;
+    border-color: white;
+    color:white;
+}
+
