@@ -1,3 +1,13 @@
+h1{
+    text-align: left;
+    font-size: 64px;
+}
+
+h2{
+    text-align: left;
+    font-size: 40px;
+}
+
 .header__nav{
     display:flex;
     flex-direction: row-reverse;
@@ -29,14 +39,11 @@
 }
 
 
-
-
-
 .header__texto{
     color:white;
     text-align: center;
-    margin-top:300px;
-    margin-right:600px;
+    margin-top:200px;
+    margin-right:800px;
 }
 
 .contenido-hero {
@@ -55,5 +62,8 @@
     margin-top:20px;
     border-color: white;
     color:white;
+    padding:20px;
+    border:solid 1px;
+    border-radius: 0;
 }
 
