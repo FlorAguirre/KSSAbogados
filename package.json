@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "nodemon": "^2.0.16",
-    "node-sass": "^7.0.1"
+    "@mdi/font": "^6.7.96",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
   },
   "devDependencies": {},
   "scripts": {

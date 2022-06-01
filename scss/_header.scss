@@ -5,7 +5,7 @@ h1{
 
 h2{
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .header__nav{
@@ -53,7 +53,7 @@ h2{
 
 .contenido-hero {
     position: absolute;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .7);
     /* transparencia en el hero */
     width: 100%;
     height: 100%;
@@ -70,5 +70,66 @@ h2{
     padding:20px;
     border:solid 1px;
     border-radius: 0;
+    margin-right: 350px;
 }
 
+.header__icono{
+    margin-bottom:5px;
+}
+
+/* #navbar__header{
+  
+    position: fixed; 
+    margin-top:20px;
+    width: 100%; 
+    transition: top 0.3s;
+     
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    
+  }
+
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+
+  
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+@media (max-width:480px) {
+    .float {
+        visibility: hidden;
+    }
+}
