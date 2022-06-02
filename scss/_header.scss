@@ -12,6 +12,18 @@ li{
     padding:20px;
 }
 
+.navbar-toggler-icon{
+    color:white !important;
+}
+
+.navbar-toggler{
+    color:white !important;
+}
+
+.bg-oscuro{
+    background-color: black;
+}
+
 .header__nav{
     display:flex;
     flex-direction: row-reverse;
@@ -137,3 +149,4 @@ li{
         visibility: hidden;
     }
 }
+
