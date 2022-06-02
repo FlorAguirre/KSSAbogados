@@ -17,6 +17,7 @@ footer{
 
 .footer__size1{
     font-size:16px;
+  
 }
 
 .footer__imagen{
@@ -24,4 +25,33 @@ footer{
     height:100px;
     margin-top:40px;
     margin-left: 50px;
+}
+
+ .footer__icono{
+    height:49px;
+    width:49px;
+    align-items: center;
+    margin:5px;
+    color: #126262;
+  
+} 
+
+
+.footer__icono-instagram{
+    height: 42px;
+    width: 42px;
+    margin:5px;
+    color: #126262;
+}
+
+.footer__icono-linkedin{
+    height: 43px;
+    width: 43px;
+    margin:5px;
+    color: #126262;
+}
+
+.iconos{
+    width:100%;
+    text-align: center;
 }
