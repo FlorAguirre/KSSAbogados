@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (1)/favicon-16x16.png">
-    <link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine&family=Open+Sans:wght@400;500&family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -29,23 +29,23 @@
             </div>
           <nav id="menu" class="navbar navbar__header navbar-expand-lg  scrolling-navbar fixed-top ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img id="logo" class ="logo header__logo"src="./Imagenes/3-removebg-preview.png" alt=""></a>
+              <a  class="navbar-brand" href="#"><img id='logo' class ="header__logo"src="../Imagenes/3-removebg-preview.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse header__nav" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a id=""class="nav-link estilo__scroll estilo__letra active__letra" aria-current="page" href="#"> <span class="iconify estilo__icono" data-icon="bx:home" style="color: white" ></span> Inicio</a>
+                    <a id=""class="nav-link estilo__scroll estilo__letra " aria-current="page" href="../index.html"> <span class="iconify estilo__icono" data-icon="bx:home" style="color: white" ></span> Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link estilo__letra estilo__scrollP" href="./vistas/publicaciones.html"><span class="iconify estilo__icono estilo__iconoP" data-icon="bx:news" style="color: white;"></span>  Publicaciones</a>
+                    <a class="nav-link estilo__letra estilo__scrollP active__letra" href="./vistas/publicaciones.html"><span class="iconify estilo__letra estilo__iconoP" data-icon="bx:news" style="color: white;"></span>  Publicaciones</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link estilo__letra estilo__scrollE" href="#"><span class="iconify estilo__icono estilo__iconoE" data-icon="bx:book-bookmark" style="color: white;"></span>  Especialidades</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link estilo__letra estilo__scrollC" href="./vistas/contactanos.html"><span class="iconify estilo__icono estilo__iconoC" data-icon="ci:mail" style="color: white;"></span>  Contactanos</a>
+                    <a class="nav-link estilo__letra estilo__scrollC"><span class="iconify estilo__icono estilo__iconoC" data-icon="ci:mail" style="color: white;"></span>  Contactanos</a>
                   </li>
                 </ul>
               </div>
@@ -87,22 +87,21 @@ $(window).scroll(function(event) {
   var scrollTop = $(window).scrollTop();
  
   if(scrollTop >= 500){
-    
     document.getElementById('menu').style.backgroundColor='#ffffff';
     document.getElementById('menu').style.transition='all 1s ease';
     document.getElementById('menu').style.boxShadow='5px 5px 10px grey';
-    
     document.querySelector('.estilo__scroll').style.color='#000000';
     document.querySelector('.estilo__scrollP').style.color='#000000';
     document.querySelector('.estilo__scrollE').style.color='#000000';
     document.querySelector('.estilo__scrollC').style.color='#000000';
-    document.querySelector('.estilo__icono').style.color='#126262';
-    document.querySelector('.estilo__iconoP').style.color='#000000';
+    document.querySelector('.estilo__icono').style.color='#000000';
+    document.querySelector('.estilo__iconoP').style.color='#126262';
     document.querySelector('.estilo__iconoE').style.color='#000000';
     document.querySelector('.estilo__iconoC').style.color='#000000';
     document.querySelector('.active__letra').style.color='#126262';
-    document.querySelectorAll('.logo').attr('src','./Imagenes/logonavbar.png');
-   
+    document.querySelector('.active__letra').style.color='#126262';
+    document.getElementById('logo').attr('src','../Imagenes/logonavbar.png');
+    
    
   }
 
@@ -120,22 +119,6 @@ $(window).scroll(function(event) {
     document.querySelector('.active__letra').style.color='#ffffff';
   }
 
-});
-  </script>
-    <script>
-      // esta parte, permite que se ejecute el codigo cuando se halla cargado la pagina
-$(function() {
-  // esta parte es la que controla cuando se mueve el scroll y ejecuta una función
-  $(document).scroll(function() {
-    // aca se pregunta si el scroll se movio de pa bajo.
-    if ($(this).scrollTop() > 500) {
-      // esta parte cambia el atributo "src" de la etiqueta "img" 
-      $('#logo').attr('src','./Imagenes/logonavbar-removebg-preview.png')
-    }
-    if ($(this).scrollTop() < 500) {
-      $('#logo').attr('src','./Imagenes/3-removebg-preview.png');
-    }
-  });
 });
   </script>
  
