@@ -132,13 +132,15 @@ li {
 footer {
   position: relative;
   background-color: #000000;
-  height: 254px; }
+  height: 254px;
+  margin-bottom: 0px; }
 
 .footer__letra {
   width: 100%;
   text-align: center;
   color: white;
-  padding: 40px; }
+  padding: 40px;
+  margin-bottom: -20px; }
 
 .footer__size {
   font-size: 24px; }
@@ -178,6 +180,43 @@ footer {
 .nosotros__imagen {
   height: 250px;
   margin: 20px; }
+
+html {
+  min-height: 100%;
+  position: relative;
+  margin-bottom: 0; }
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  margin-bottom: 0; }
+
+.especialidades__navbar {
+  box-shadow: 5px 5px 10px grey; }
+
+.estilo {
+  font-weight: bold; }
+
+.linea {
+  margin-top: 150px;
+  width: 100%;
+  margin-left: 50%;
+  text-align: center;
+  font-weight: bold; }
+
+.card__margen {
+  margin: 40px; }
+
+.card__estilo {
+  height: 250px !important; }
+
+.bg-green {
+  background-color: #126262; }
+
+.letra__especialidades {
+  color: white;
+  font-weight: bold;
+  text-align: center; }
 
 body {
   font-family: 'Domine', serif;
