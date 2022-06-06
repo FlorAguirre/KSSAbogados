@@ -30,6 +30,7 @@ body{
 
 .card__margen{
     margin:40px;
+    margin-bottom: 60px;
 }
 
 .card__estilo{
@@ -44,4 +45,11 @@ body{
     color:white;
     font-weight: bold;
     text-align: center;
+}
+
+.linea__estilo{
+    background-color:#126262;
+    height:7px;
+    border-color:#126262;
+    width:50px;
 }

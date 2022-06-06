@@ -205,7 +205,8 @@ body {
   font-weight: bold; }
 
 .card__margen {
-  margin: 40px; }
+  margin: 40px;
+  margin-bottom: 60px; }
 
 .card__estilo {
   height: 250px !important; }
@@ -217,6 +218,12 @@ body {
   color: white;
   font-weight: bold;
   text-align: center; }
+
+.linea__estilo {
+  background-color: #126262;
+  height: 7px;
+  border-color: #126262;
+  width: 50px; }
 
 body {
   font-family: 'Domine', serif;
