@@ -86,7 +86,7 @@ $(window).scroll(function(event) {
   var scrollLeft = $(window).scrollLeft();
   var scrollTop = $(window).scrollTop();
  
-  if(scrollTop >= 500){
+  if(scrollTop >= 50){
     
     document.getElementById('menu').style.backgroundColor='#ffffff';
     document.getElementById('menu').style.transition='all 1s ease';
@@ -106,7 +106,7 @@ $(window).scroll(function(event) {
    
   }
 
- if(scrollTop < 500){
+ if(scrollTop < 50){
     document.getElementById('menu').style.backgroundColor='';
     document.getElementById('menu').style.boxShadow='none';
     document.querySelector('.estilo__scroll').style.color='#ffffff';
@@ -128,11 +128,11 @@ $(function() {
   // esta parte es la que controla cuando se mueve el scroll y ejecuta una función
   $(document).scroll(function() {
     // aca se pregunta si el scroll se movio de pa bajo.
-    if ($(this).scrollTop() > 500) {
+    if ($(this).scrollTop() > 50) {
       // esta parte cambia el atributo "src" de la etiqueta "img" 
       $('#logo').attr('src','./Imagenes/logonavbar-removebg-preview.png')
     }
-    if ($(this).scrollTop() < 500) {
+    if ($(this).scrollTop() < 50) {
       $('#logo').attr('src','./Imagenes/3-removebg-preview.png');
     }
   });
