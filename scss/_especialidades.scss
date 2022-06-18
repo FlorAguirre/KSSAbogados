@@ -53,3 +53,34 @@ body{
     border-color:#126262;
     width:50px;
 }
+.titulo__especialidades{
+    text-align: center !important;
+    font-size: 48px;
+   
+}
+
+.imagen__especialidades{
+    position: relative;
+}
+
+.imagen__especialidades:hover .parrafo__especialidades{
+    display:block;
+}
+
+
+.parrafo__especialidades{
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:-16px;
+    right:0px;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    padding:30px;
+    padding-top:60px;
+    font-size: 20px/30px;
+    color:white;
+    font-weight: bold;
+}
+
