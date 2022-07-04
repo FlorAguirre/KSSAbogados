@@ -1,0 +1,55 @@
+html {
+    min-height: 100%;
+    position: relative;
+    margin-bottom:0;
+  }
+
+body{
+    overflow-x: hidden;
+    
+        margin: 0;
+        margin-bottom:0;
+      
+}
+
+.especialidades__navbar{
+    box-shadow: 5px 5px 10px grey;
+}
+
+.estilo{
+    font-weight: bold;
+}
+
+.linea{
+    margin-top:150px;
+    width:100%;
+    margin-left:50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card__margen{
+    margin:40px;
+    margin-bottom: 60px;
+}
+
+.card__estilo{
+    height:250px !important;
+}
+
+.bg-green{
+    background-color: #126262;
+}
+
+.letra__especialidades{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.linea__estilo{
+    background-color:#126262;
+    height:7px;
+    border-color:#126262;
+    width:50px;
+}
