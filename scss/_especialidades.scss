@@ -41,11 +41,7 @@ body{
     background-color: #126262;
 }
 
-.letra__especialidades{
-    color:white;
-    font-weight: bold;
-    text-align: center !important;
-}
+
 
 .linea__estilo{
     background-color:#126262;
@@ -78,3 +74,43 @@ body{
     color: #FFFFFF;
     background-color: #00A4BD;
   }
+
+  #texto, #texto1 , #texto2, #texto3 , #texto4, #texto5, #texto6, #texto7, #texto8, #texto9{
+    display:none;
+    color:white;
+  }
+
+.texto__educacion{
+  align-items: center;
+  text-align: center;
+  
+}
+
+.titulo__arrow{
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.letra__especialidades{
+  color:white;
+  font-weight: bold;
+  /* text-align: center !important; */
+  font-size: 1.5rem;
+  width:100%;
+  margin-left: 20%;
+  
+}
+
+.arrow{
+  height:60px;
+  margin-top: -12px;
+  margin-bottom: -20px;
+ 
+
+}
+
+#flechaarriba{
+  display:none;
+}
+
