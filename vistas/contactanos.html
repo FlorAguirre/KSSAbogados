@@ -63,24 +63,24 @@
     <h3 class="subtitulo__contactanos">Tu consulta es confidencial.</h3>
  
 <div class="contenedor__form">
-  <form class="form"  method="post" action="correos.php">
+  <form id="form" class="form"  method="post">
     <div class="form__labels">
     <div class="col-md-4">
       <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
-      <input type="text" class="form-control input__texto" id="validationCustom01" placeholder="Ingrese su nombre y apellido" required name="nombre"> 
+      <input type="text" class="form-control input__texto" id="name" placeholder="Ingrese su nombre y apellido" required name="nombre" > 
     </div>
       <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Email</label>
-    <input type="email" class="form-control input__texto" id="exampleFormControlInput1" name="email" placeholder="Ingrese su email" required>
+    <input type="email" class="form-control input__texto" id=" email" name="email" placeholder="Ingrese su email" required>
   </div>
     </div>
 
   <div class="mb-3">
-    <label for="exampleFormControlTextarea1 " class="form-label mensaje">Mensaje</label>
+    <label for="exampleFormControlTextarea1 " id="mensaje" class="form-label mensaje">Mensaje</label>
     <textarea class="form-control input " id="exampleFormControlTextarea1" rows="6" name="mensaje" required></textarea>
   </div>
 
-  <input class="enviar" value="ENVIAR" type="submit" >
+  <input id="button" class="enviar" value="ENVIAR" type="submit" >
     </form>
     <div>
     <h4 class="font__datos">EMAIL</h4>
@@ -174,5 +174,34 @@ $(function() {
   </script> -->
  
  <!--  <script src="./bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script> -->
+ <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('CCgkkJ8bJlYYZTP9V')
+</script>
+
+ <script>
+  const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Enviando...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_rcxdz4p';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Enviar';
+      alert('El mensaje se envió correctamente');
+    }, (err) => {
+      btn.value = 'Enviar';
+      alert(JSON.stringify(err));
+    });
+});
+ </script>
 </body>
 </html>
