@@ -12,6 +12,11 @@ body{
       
 }
 
+.titulo__principal{
+  width:100%;
+  text-align: center;
+}
+
 .especialidades__navbar{
     box-shadow: 5px 5px 10px grey;
 }
@@ -21,9 +26,9 @@ body{
 }
 
 .linea{
-    margin-top:150px;
+    margin-top:160px;
     width:100%;
-    margin-left:50%;
+    margin-left:49%;
     text-align: center;
     font-weight: bold;
 }
@@ -45,9 +50,11 @@ body{
 
 .linea__estilo{
     background-color:#126262;
-    height:7px;
+    height:4px;
     border-color:#126262;
-    width:50px;
+    width:60px;
+    color:#126262;
+    
 }
 
 .dropdown {
@@ -95,22 +102,22 @@ body{
 .letra__especialidades{
   color:white;
   font-weight: bold;
-  /* text-align: center !important; */
+
   font-size: 1.5rem;
   width:100%;
-  margin-left: 20%;
-  
+  /* margin-left: 20%; */
+  text-align: center !important;
 }
 
 .arrow{
-  height:60px;
+  height:55px;
   margin-top: -12px;
   margin-bottom: -20px;
  
 
 }
 
-#flechaarriba{
+#flechaarriba, #flechaarriba1, #flechaarriba2, #flechaarriba3, #flechaarriba4, #flechaarriba5, #flechaarriba6, #flechaarriba7, #flechaarriba8{
   display:none;
 }
 

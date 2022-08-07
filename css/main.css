@@ -265,6 +265,10 @@ body {
   margin: 0;
   margin-bottom: 0; }
 
+.titulo__principal {
+  width: 100%;
+  text-align: center; }
+
 .especialidades__navbar {
   box-shadow: 5px 5px 10px grey; }
 
@@ -272,9 +276,9 @@ body {
   font-weight: bold; }
 
 .linea {
-  margin-top: 150px;
+  margin-top: 160px;
   width: 100%;
-  margin-left: 50%;
+  margin-left: 49%;
   text-align: center;
   font-weight: bold; }
 
@@ -290,9 +294,10 @@ body {
 
 .linea__estilo {
   background-color: #126262;
-  height: 7px;
+  height: 4px;
   border-color: #126262;
-  width: 50px; }
+  width: 60px;
+  color: #126262; }
 
 .dropdown {
   display: inline-block;
@@ -333,18 +338,83 @@ body {
 .letra__especialidades {
   color: white;
   font-weight: bold;
-  /* text-align: center !important; */
   font-size: 1.5rem;
   width: 100%;
-  margin-left: 20%; }
+  /* margin-left: 20%; */
+  text-align: center !important; }
 
 .arrow {
-  height: 60px;
+  height: 55px;
   margin-top: -12px;
   margin-bottom: -20px; }
 
-#flechaarriba {
+#flechaarriba, #flechaarriba1, #flechaarriba2, #flechaarriba3, #flechaarriba4, #flechaarriba5, #flechaarriba6, #flechaarriba7, #flechaarriba8 {
   display: none; }
+
+.subtitulo__contactanos {
+  text-align: center; }
+
+.contenedor__form {
+  /*     display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+  margin-top: 80px; }
+
+.form {
+  width: 50%; }
+
+.form__labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px; }
+
+textarea {
+  margin-left: 8%; }
+
+.mensaje {
+  margin-left: 8%; }
+
+.enviar {
+  margin-left: 8%;
+  padding: 15px;
+  height: 56px;
+  width: 141px;
+  background-color: transparent;
+  font-weight: bold;
+  border: 1px solid rgba(51, 51, 51, 0.47);
+  border-radius: 2px; }
+
+.input {
+  border: 1px solid rgba(51, 51, 51, 0.47); }
+
+.font__datos {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(51, 51, 51, 0.47); }
+
+.datos {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  color: #333333;
+  margin-top: 15px; }
+
+.input__texto {
+  width: 324px !important;
+  height: 56px;
+  border: 1px solid rgba(51, 51, 51, 0.47); }
 
 body {
   font-family: 'Domine', serif;

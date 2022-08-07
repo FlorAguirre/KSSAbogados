@@ -1,0 +1,80 @@
+.subtitulo__contactanos{
+    text-align: center;
+}
+
+.contenedor__form{
+/*     display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    margin-top:80px;
+
+  
+}
+
+.form{
+    width:50%;
+}
+
+.form__labels{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    margin-bottom: 30px;
+}
+
+
+textarea{
+    margin-left: 8%;
+}
+
+.mensaje{
+    margin-left: 8%;
+}
+
+
+
+.enviar{
+    margin-left: 8%;
+    padding:15px;
+    height:56px;
+    width:141px;
+    background-color: transparent;
+    font-weight: bold;
+    border: 1px solid rgba(51, 51, 51, 0.47);
+    border-radius: 2px;
+}
+
+.input{
+    border: 1px solid rgba(51, 51, 51, 0.47);
+}
+
+.font__datos{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 16px;
+color: rgba(51, 51, 51, 0.47);
+}
+
+.datos{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+color: #333333;
+margin-top:15px;
+}
+
+.input__texto{
+    width:324px !important;
+    height:56px;
+    border: 1px solid rgba(51, 51, 51, 0.47);
+}
