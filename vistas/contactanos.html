@@ -63,21 +63,21 @@
     <h3 class="subtitulo__contactanos">Tu consulta es confidencial.</h3>
  
 <div class="contenedor__form">
-  <form class="form"  method="POST" action="mail.php">
+  <form class="form"  method="post" action="correos.php">
     <div class="form__labels">
     <div class="col-md-4">
       <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
-      <input type="text" class="form-control input__texto" id="validationCustom01" placeholder="Ingrese su nombre y apellido" required name="name"> 
+      <input type="text" class="form-control input__texto" id="validationCustom01" placeholder="Ingrese su nombre y apellido" required name="nombre"> 
     </div>
       <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Email</label>
-    <input type="email" class="form-control input__texto" id="exampleFormControlInput1" name="email" placeholder="Ingrese su email">
+    <input type="email" class="form-control input__texto" id="exampleFormControlInput1" name="email" placeholder="Ingrese su email" required>
   </div>
     </div>
 
   <div class="mb-3">
     <label for="exampleFormControlTextarea1 " class="form-label mensaje">Mensaje</label>
-    <textarea class="form-control input " id="exampleFormControlTextarea1" rows="6" name="comments"></textarea>
+    <textarea class="form-control input " id="exampleFormControlTextarea1" rows="6" name="mensaje" required></textarea>
   </div>
 
   <input class="enviar" value="ENVIAR" type="submit" >
