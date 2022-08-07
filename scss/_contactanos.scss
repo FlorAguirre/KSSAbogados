@@ -32,11 +32,20 @@ textarea{
     margin-left: 8%;
 }
 
+
+
 .mensaje{
     margin-left: 8%;
 }
 
-
+@media(min-width:480px){
+    textarea{
+        margin-left: 6%;
+    }
+    .mensaje{
+        margin-left: 6%;
+    }
+}
 
 .enviar{
     margin-left: 8%;
