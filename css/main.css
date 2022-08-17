@@ -14,6 +14,19 @@ h2 {
 li {
   padding: 20px; }
 
+@media (max-width: 1280px) {
+  .texto__header {
+    text-align: left;
+    font-size: 54px;
+    line-height: 45px;
+    margin-left: 15%;
+    margin-right: -8%; }
+  .texto__header2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-left: 15%;
+    margin-right: -15%; } }
+
 .navbar-toggler-icon {
   color: #ffffff !important; }
 
@@ -79,6 +92,19 @@ li {
   border: solid 1px;
   border-radius: 0;
   margin-right: 350px; }
+
+@media (max-width: 1280px) {
+  .estilo__boton {
+    margin-top: 20px;
+    border-color: white;
+    color: white;
+    padding: 20px;
+    border: solid 1px;
+    border-radius: 0;
+    margin-right: 350px;
+    margin-left: 15%;
+    width: 200px;
+    /* margin-right: -15%; */ } }
 
 .estilo__icono {
   height: 20px;
@@ -239,10 +265,19 @@ footer {
 .nosotrosFlex {
   margin: 0px; }
 
-@media (min-width: 768px) {
+@media (max-width: 1280px) {
   .nosotrosFlex {
-    margin: 0px 60px 0px 60px; } }
+    margin-top: 160px;
+    margin-left: 60px; } }
 
+.nosotrosFlex {
+  margin-left: 60px; }
+
+/* @media (min-width: 768px) {
+    .nosotrosFlex{
+        margin: 0px 60px 0px 60px;
+    }
+} */
 .parrafo__conoce {
   font-family: 'Roboto';
   font-style: normal;

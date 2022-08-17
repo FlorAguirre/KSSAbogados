@@ -75,13 +75,24 @@
 
 .nosotrosFlex {
     margin: 0px;
+
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1280px) {
+    .nosotrosFlex{
+        margin-top: 160px;
+        margin-left: 60px;
+    }
+}
+
+.nosotrosFlex{
+    margin-left: 60px;
+}
+/* @media (min-width: 768px) {
     .nosotrosFlex{
         margin: 0px 60px 0px 60px;
     }
-}
+} */
 
 .parrafo__conoce{
     font-family: 'Roboto';
